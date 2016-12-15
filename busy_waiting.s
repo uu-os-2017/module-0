@@ -64,7 +64,7 @@ poll_receiver:
 	li $t4, 63 # ASCII value of '?'.
 	
 	##
-	## TODO 3: Store the  ASCII value of pressed key in $t4.
+	## TODO 3: Store the ASCII value of pressed key in $t4.
 	##
 
 	# TIP: The ASCII value of the pressed key is now available in the memory
@@ -91,9 +91,9 @@ poll_receiver:
 	## TODO 4: Jump back to label main until the user presses `q` on the keyboard. 
 	##
 	
-	# TIP 1: ASCII value of `q` = 113.
+	# TIP: ASCII value of `q` = 113.
 	
-	# TIP 2: Use the bne (Branch Not Equal) instruction. 
+	# TIP: Use the bne (Branch Not Equal) instruction. 
 	
 	
 	# Use the MARS built-in system call (10) to terminate normally. 
